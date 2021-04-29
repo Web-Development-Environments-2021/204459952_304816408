@@ -497,7 +497,7 @@ const Start = () => {
     },
     false
   );
-  interval = setInterval(UpdatePosition, 200);
+  interval = setInterval(UpdatePosition, 220);
   ghosts_interval = setInterval(gPositionUpdater, 350);
   special_food_interval = setInterval(SetSpecialFood, 200);
   special_heart_interval = setInterval(updateS, 800);
